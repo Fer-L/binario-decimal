@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Bin2Dec</title>
+    <link rel="stylesheet" href="..\Css\style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="content first-content">
+            <div class="first-column">
+                <form class="form">
+                    <h2 class="title title-bin-decimal">Binário para decimal</h2>
+                    <label for="binnumber">Número binário:</label>
+                    <input type="number" id="binnumber" name="binnumber"><br><br>
+                    <label for="decimal">Decimal:</label>
+                    <input type="number" id="decimal" name="decimal" disabled><br><br>
+                    <input type="button" id="button-primary" value="Converter" onclick="converter()">
+                    <p>Pressione 'Converter' para realizar a conversão.</p>
+                </form>
+            </div>
+            <div class="second-column">
+                <form class="form">
+                    <h2 class="title title-decimal-bin">Decimal para binário</h2>
+                    <label for="decimal1">Número decimal:</label>
+                    <input type="number" id="decimal1" name="decimal1"><br><br>
+                    <label for="bin">Binário:</label>
+                    <input type="number" id="bin" name="bin" disabled><br><br>
+                    <input type="button" value="Converter" value="Converter2" onclick="converter2()">
+                    <p>Pressione 'Converter' para realizar a conversão.</p>
+                </form>   
+            </div>             
+            </div>   
+        </div>
+        <footer>
+            <p>&copy; Fernanda Luna</p>
+        </footer>
+    </div>
+    <script src="..\Script\script.js"></script>
+</body>
+</html>
